@@ -1,0 +1,83 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: #e1e1e1;
+}
+.header{
+    background: rgba(0, 0, 0, 0.9);
+    padding: 6px 24px;
+    text-align: left;
+    color: white;
+    margin: 0px;
+    letter-spacing: 1px;
+    font: caption;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.menu{
+    background-color: black;
+    margin: 0px;
+    overflow: hidden;
+}
+.menu a{
+    font: menu;
+    text-decoration: none;
+    font-size: 18px;
+    float: right;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 24px;
+}
+
+.a1:hover{
+    color: #3693ff;
+}
+
+.content{
+    padding: 0px 24px;
+    text-align: justify;
+    font-size: 35px;
+}
+
+/* Showcase Area */
+#showcase {
+    background: url(SsRWfy.jpg) no-repeat center center/cover;
+    height: 91.7vh;
+}
+
+.showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 81px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0, o.6);
+    color: aliceblue;
+}
+
+.showcase-content .btn{
+    font-size: 1.5rem;
+    padding: 1rem 10rem;
+    transition: color 0.3s, background 0.3s;
+}
+
+.showcase-content .btn:hover {
+    background: #3693ff;
+    color: #fff;
+}
+
+.btn {
+    color: #3693ff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 1px solid #3693ff;
+    border-radius: 10px;
+    font-weight: bold;
+}
